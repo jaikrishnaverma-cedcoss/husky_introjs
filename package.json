@@ -17,8 +17,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "lint": "eslint .",
-    "pre-commit": "npm run lint",
     "eject": "react-scripts eject"
   },
   "husky": {
