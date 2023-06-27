@@ -88,7 +88,7 @@ function App() {
       </div>
       <Steps
         enabled={state.enable}
-        steps={star}
+        steps={stepsArr}
         initialStep={state.currentStep}
         onBeforeExit={(stepIndex) => {
           console.log('onBeforeExit', stepIndex);
