@@ -23,8 +23,14 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint"
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.{js,json,css,md,html}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
   },
   "eslintConfig": {
     "extends": [

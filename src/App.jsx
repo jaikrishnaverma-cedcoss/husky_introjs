@@ -38,7 +38,6 @@ const stepsArr=[
   },
 ]
 function App() {
-  const [enable, setEnable] = useState(false);
   const [state, setState] = useState({
     currentStep: 0,
     button: "Start",
