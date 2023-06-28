@@ -25,10 +25,8 @@
     }
   },
   "lint-staged": {
-    "*.{js,json,css,md,html}": [
-      "prettier --single-quote --write",
-      "git add"
-    ]
+    "*.{js,jsx}": "eslint --fix",
+    "*.{json,md}": "prettier --write"
   },
   "eslintConfig": {
     "extends": [
@@ -50,6 +48,6 @@
   },
   "devDependencies": {
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.2"
+    "lint-staged": "^13.2.3"
   }
 }
