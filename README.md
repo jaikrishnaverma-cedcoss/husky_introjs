@@ -19,8 +19,8 @@ This project serves as a learning platform for implementing Husky and Intro.js t
 
 ## Installation and Setup
 
-1. Clone the repository: `git clone https://github.com/jaikrishnaverma-dev/husky-introjs-project.git`
-2. Navigate to the project directory: `cd husky-introjs-project`
+1. Clone the repository: `git clone https://github.com/jaikrishnaverma-dev/husky_introjs.git`
+2. Navigate to the project directory: `cd husky_introjs`
 3. Install dependencies: `npm install` or `yarn install`
 4. Configure Husky hooks and Intro.js guided tours according to project requirements.
 5. Start the development server: `npm start` or `yarn start`
